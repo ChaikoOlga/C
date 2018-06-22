@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+int i;    
+int mass[10];
+for(i=0; i<10; i++) {
+mass[i]=i;}
+for(i=0; i<10; i++){
+    printf("%d\n", mass[i]);
+}
+return 0;
+}
