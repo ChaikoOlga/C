@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+char m1[100];
+fgets(m1, 100, stdin);  //*имя массива. количество*//
+
+putchar(m1);
+
+getchar();
+return 0;
+}
