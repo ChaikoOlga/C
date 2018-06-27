@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include<stdlib.h>
+int main() {
+int a;
+int *b;
+a=14;
+b=&a;
+printf("%d ",a);
+printf("%d ",*b);
+getchar();
+return 0;
+}
