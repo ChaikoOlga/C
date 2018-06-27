@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+char m2[]="Горные вершины";
+char m3[]={'т','и','х','и','е','\0'};
+char m4[20]="Hey!!!";
+for (int i=0; i<20; i=i+1){
+	
+printf("%c", m4[i]);
+}
+getchar();
+return 0;
+
+}
