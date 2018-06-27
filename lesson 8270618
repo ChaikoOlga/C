@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+char m1[50]="First";
+char m2[50]="Second";
+char m3[50];
+strcat(m1,m2);
+strncat(m1,m2,3);
+strcmp(m1,m2);
+
+puts(m1);
+puts(m2);
+
+getchar();
+return 0;
+}
